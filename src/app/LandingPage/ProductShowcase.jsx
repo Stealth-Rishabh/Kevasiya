@@ -69,7 +69,7 @@ export default function ProductShowcase() {
         {/* Right Image Carousel Section */}
         <div className="grid grid-cols-4 gap-6">
           {/* Main large square */}
-          <div className="col-span-3 relative aspect-square bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="col-span-3 relative aspect-square bg-white shadow-lg overflow-hidden">
             <img
               src={IMAGES[0].thumbnails[currentIndex]}
               alt="Product showcase"
@@ -101,7 +101,7 @@ export default function ProductShowcase() {
                   <button
                     key={actualIndex}
                     className={`
-                      relative aspect-square rounded-xl overflow-hidden transition-all duration-500
+                      relative aspect-square overflow-hidden transition-all duration-500
                       ${
                         currentIndex === actualIndex
                           ? ""
