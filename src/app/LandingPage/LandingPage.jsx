@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import ProductShowcase from "./ProductShowcase";
 import WelcomeSection from "./WelcomeSection";
 import LuxuryGifts from "./LuxuryGifts";
+import WhyChooseSection from "./WhyChooseSection";
 
 const LandingPage = () => {
   return (
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <ProductShowcase />
       <WelcomeSection />
       <LuxuryGifts />
+      <WhyChooseSection />
     </>
   );
 };

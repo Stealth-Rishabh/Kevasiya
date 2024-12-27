@@ -7,14 +7,14 @@ import img5 from "../../assets/11.png";
 
 const LuxuryGifts = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       {/* Main Heading */}
       <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-10 sm:mb-48">
         Discover Our Luxury Gifting Collections
       </h1>
 
       {/* Hero Section */}
-      <div className="bg-[#E6F6FF] rounded-none mb-16">
+      <div className="bg-[#E6F6FF] rounded-none mb-8 sm:mb-16">
         <div className="flex flex-col md:flex-row items-center gap-8 p-6 md:p-12">
           <div className="w-full md:w-[43%]">
             <div className="relative">
