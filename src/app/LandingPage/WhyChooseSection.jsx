@@ -1,8 +1,8 @@
 import React from "react";
 import craftsmanship from "../../assets/craftsmanship.svg";
-import personalized from "../../assets/personalised.svg";
-import sustainable from "../../assets/sustainable.svg";
-import delivery from "../../assets/delivery.svg";
+import personalized from "../../assets/Personalised.svg";
+import sustainable from "../../assets/Sustainable.svg";
+import delivery from "../../assets/Delivery.svg";
 
 const FeatureCard = ({ icon, title }) => {
   return (
