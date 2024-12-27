@@ -1,6 +1,6 @@
 import React from "react";
 import craftsmanship from "../../assets/craftsmanship.svg";
-import personalized from "../../assets/personalized.svg";
+import personalized from "../../assets/personalised.svg";
 import sustainable from "../../assets/sustainable.svg";
 import delivery from "../../assets/delivery.svg";
 
