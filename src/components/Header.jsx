@@ -54,11 +54,11 @@ export default function Header() {
             : "-translate-x-full opacity-0"
         } absolute left-0 top-full z-20 w-full transform bg-white px-4 py-2 shadow-lg transition-all duration-300 ease-in-out md:hidden`}
       >
-        <div className="space-y-4 py-4">
-          <div className="flex flex-col space-y-4">
+        <div className="">
+          <div className="flex flex-col">
             <NavLinks mobile />
           </div>
-          <div className="flex justify-center space-x-6 border-t border-gray-200 pt-4">
+          <div className="flex justify-center space-x-6 border-t border-gray-200 pt-2">
             <NavIcons cartCount={cartCount} mobile />
           </div>
         </div>
