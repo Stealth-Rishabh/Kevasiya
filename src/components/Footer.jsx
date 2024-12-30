@@ -16,7 +16,8 @@ const Footer = () => {
               <img src={Logo} alt="Kevasiya" className="h-16 mb-4" />
             </a>
             <p className="text-gray-600">
-              Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit
+              Kevasiya: Where Luxury Meets Thoughtful Gifting, Creating Timeless
+              Memories.
             </p>
           </div>
 
@@ -209,15 +210,17 @@ const Footer = () => {
             <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 md:space-y-0 md:space-x-8">
               <div className="flex items-center space-x-2">
                 <img src={location} alt="location" className="w-7 h-7" />
-                <span>9200 E Iowa Ave, Denver, USA</span>
+                <span>
+                  52 North Avenue Road West Punjabi Bagh New Delhi 110026
+                </span>
               </div>
               <div className="flex items-center space-x-2">
                 <img src={phone} alt="phone" className="w-7 h-7" />
-                <span>(+01) 123 567 999</span>
+                <span>+91 93100 10810</span>
               </div>
               <div className="flex items-center space-x-2">
                 <img src={message} alt="message" className="w-7 h-7" />
-                <span>contact@olars.com</span>
+                <span>kevasiya@gmail.com</span>
               </div>
             </div>
           </div>
