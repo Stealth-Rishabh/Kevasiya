@@ -1,13 +1,21 @@
 import React from "react";
+import video from "../../assets/video.mp4";
 
 export default function Designers() {
   return (
-    <div className="bg-white flex items-center justify-center px-4 pb-12 pt-5 md:pb-20 md:pt-7">
+    <div className="bg-white flex items-center justify-center px-4 pb-12 pt-5 md:pb-20 md:pt-7 overflow-hidden">
       <div className="max-w-5xl mx-auto w-full">
         <div className="grid md:grid-cols-2 gap-12 justify-center sm:justify-normal text-center sm:text-left items-center">
           {/* Image Section */}
-          <div className="w-full aspect-square bg-[#F5F5F5]">
-            <div className="w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbGw9IiNFNUU1RTUiLz48cmVjdCB4PSIyMCIgeT0iMjAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI0U1RTVFNSIvPjwvc3ZnPg==')] bg-[length:20px_20px]"></div>
+          <div className="max-w-[488px] max-h-[488px] bg-black  h-full overflow-hidden rounded-sm">
+            <video
+              src={video}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-contain rounded-sm"
+            ></video>
           </div>
 
           {/* Content Section */}

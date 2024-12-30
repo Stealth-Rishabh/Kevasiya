@@ -102,7 +102,7 @@ function NavIcons({ cartCount, mobile }) {
         className="rounded-full p-2 text-gray-600 transition-colors duration-200 hover:bg-gray-100 hover:text-[#C4A484] focus:outline-none focus:ring-2 focus:ring-[#C4A484]"
         aria-label="Search"
       >
-        <img src={Search} alt="Search" className="h-5 w-5" />
+        <img src={Search} alt="Search" className="h-5 min-w-7 sm:min-w-5" />
       </button>
       <button
         className="relative rounded-full p-2 text-gray-600 transition-colors duration-200 hover:bg-gray-100 hover:text-[#C4A484] focus:outline-none focus:ring-2 focus:ring-[#C4A484] flex items-center justify-center"
@@ -119,7 +119,7 @@ function NavIcons({ cartCount, mobile }) {
         className="rounded-full p-2 text-gray-600 transition-colors duration-200 hover:bg-gray-100 hover:text-[#C4A484] focus:outline-none focus:ring-2 focus:ring-[#C4A484]"
         aria-label="User account"
       >
-        <img src={User} alt="User" className="h-5 w-5" />
+        <img src={User} alt="User" className="h-5 min-w-7 sm:min-w-5" />
       </button>
     </>
   );
