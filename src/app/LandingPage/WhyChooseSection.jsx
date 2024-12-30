@@ -8,10 +8,9 @@ import BG from "../../assets/WhyChooseBg.png";
 const FeatureCard = ({ icon, title }) => {
   return (
     <div
-      className={`p-6 text-center bg-[#FDF8F3] bg-center bg-no-repeat`}
+      className={`p-6 text-center bg-center bg-no-repeat`}
       style={{
         backgroundImage: `url(${BG})`,
-        backgroundColor: "rgba(89, 62, 42, 0.9)",
         backgroundBlend: "overlay",
       }}
     >

@@ -14,10 +14,10 @@ export default function WelcomeSection() {
       }}
     >
       {/* Decorative Images */}
-      <div className="absolute left-4 bottom-12 md:left-16 md:bottom-16 w-24 md:w-40 opacity-30 sm:opacity-100">
+      <div className="absolute left-4 bottom-12 md:left-16 md:bottom-16 w-24 md:w-40 opacity-40 sm:opacity-100">
         <img src={img1} alt="" className="w-full h-auto" aria-hidden="true" />
       </div>
-      <div className="absolute right-4 top-0 md:right-16 md:top-16 w-24 md:w-40 opacity-30 sm:opacity-100">
+      <div className="absolute right-4 top-0 md:right-16 md:top-16 w-24 md:w-40 opacity-40 sm:opacity-100">
         <img src={img2} alt="" className="w-full h-auto" aria-hidden="true" />
       </div>
 
