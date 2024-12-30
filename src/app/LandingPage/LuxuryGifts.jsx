@@ -9,9 +9,9 @@ const LuxuryGifts = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       {/* Main Heading */}
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-10 sm:mb-48">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-10 sm:mb-48">
         Discover Our Luxury Gifting Collections
-      </h1>
+      </h2>
 
       {/* Hero Section */}
       <div className="bg-[#E6F6FF] rounded-none mb-8 sm:mb-16">
@@ -29,7 +29,7 @@ const LuxuryGifts = () => {
             <h2 className="text-2xl md:text-3xl font-semibold text-[#0080BC]">
               Baby Shower /Announcements
             </h2>
-            <p className="text-gray-700 text-lg leading-relaxed">
+            <p className="text-gray-700 text-base leading-relaxed">
               Welcome a little bundle of joy with Kevasiya's baby announcement luxury gifting. 
               Our exclusive collection of elegant and personalized gifts is designed to celebrate 
               this special milestone with unmatched sophistication.

@@ -25,9 +25,9 @@ export default function WelcomeSection() {
 
       {/* Content Container */}
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <h1 className="text-2xl md:text-4xl font-serif mb-6 text-gray-800">
+        <h2 className="text-2xl welcome-title md:text-4xl font-serif mb-6 text-gray-800">
           Welcome to Kevasiya,
-        </h1>
+        </h2>
 
         <h2 className="text-xl md:text-3xl font-medium mb-8 text-gray-900 leading-tight">
           where luxury meets thoughtfulness in the art of gifting.

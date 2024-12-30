@@ -54,7 +54,7 @@ const products = [
 export default function ProductGrid() {
   return (
     <div className="container max-w-7xl mx-auto px-4 py-8">
-      <div className="grid grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-0">
         {products.map((product) => (
           <div
             key={product.id}

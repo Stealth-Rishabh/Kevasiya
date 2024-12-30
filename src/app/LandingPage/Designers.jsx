@@ -12,11 +12,11 @@ export default function Designers() {
 
           {/* Content Section */}
           <div className="space-y-6">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center sm:text-left">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center sm:text-left">
               Work with our
               <br />
               designers to create
-            </h1>
+            </h2>
 
             <div className="space-y-1">
               <p className="text-gray-500 inline-block sm:block text-xl">

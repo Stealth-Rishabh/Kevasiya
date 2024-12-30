@@ -37,9 +37,9 @@ export default function GiftingTrends() {
 
   return (
     <section className="w-full max-w-7xl mx-auto px-4 py-12 md:py-20">
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">
         This Month's Featured Gifting Trends
-      </h1>
+      </h2>
 
       <div className="relative overflow-hidden">
         <div className="relative w-full h-[230px] sm:h-[300px] md:h-[400px]">

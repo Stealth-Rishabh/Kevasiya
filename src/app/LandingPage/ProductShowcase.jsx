@@ -11,8 +11,8 @@ const IMAGES = [
       img1,
       img2,
       img3,
-      "https://images.unsplash.com/photo-1661956602116-aa6865609028",
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
+      img4,
+      // "https://images.unsplash.com/photo-1564013799919-ab600027ffc6",
     ],
   },
 ];
@@ -45,14 +45,14 @@ export default function ProductShowcase() {
         {/* Left Content Section */}
         <div className="space-y-8">
           <div className="space-y-4 text-center sm:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light leading-tight">
               Celebrate Life's
               <br />
               Special Moments with
               <span className="block font-bold sm:mt-3 text-[2em] sm:text-[2.5em]">
                 Kevasiya
               </span>
-            </h1>
+            </h2>
           </div>
 
           <div className="space-y-4 !mt-4 sm:!mt-6 text-center sm:text-left">
