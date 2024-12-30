@@ -1,26 +1,24 @@
 import React from "react";
 import img1 from "../../assets/5.png";
 import img2 from "../../assets/6.png";
+import BG from "../../assets/WelcomeBg.png";
 
 export default function WelcomeSection() {
   return (
-    <section className="relative min-h-[400px] flex items-center bg-[#fdf8f5] px-4 py-12 md:py-16 overflow-hidden">
+    <section
+      className="relative min-h-[400px] bg-center bg-no-repeat flex items-center bg-[#fdf8f5] px-4 py-12 md:py-16 overflow-hidden"
+      style={{
+        backgroundImage: `url(${BG})`,
+        backgroundColor: "rgba(89, 62, 42, 0.9)",
+        backgroundBlend: "overlay",
+      }}
+    >
       {/* Decorative Images */}
-      <div className="absolute left-4 bottom-12 md:left-16 md:bottom-16 w-24 md:w-40 opacity-80">
-        <img
-          src={img1}
-          alt=""
-          className="w-full h-auto"
-          aria-hidden="true"
-        />
+      <div className="absolute left-4 bottom-12 md:left-16 md:bottom-16 w-24 md:w-40 opacity-50 sm:opacity-100">
+        <img src={img1} alt="" className="w-full h-auto" aria-hidden="true" />
       </div>
-      <div className="absolute right-4 top-0 md:right-16 md:top-16 w-24 md:w-40 opacity-80">
-        <img
-          src={img2}
-          alt=""
-          className="w-full h-auto"
-          aria-hidden="true"
-        />
+      <div className="absolute right-4 top-0 md:right-16 md:top-16 w-24 md:w-40 opacity-50 sm:opacity-100">
+        <img src={img2} alt="" className="w-full h-auto" aria-hidden="true" />
       </div>
 
       {/* Content Container */}

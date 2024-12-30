@@ -3,10 +3,18 @@ import craftsmanship from "../../assets/craftsmanship.svg";
 import personalized from "../../assets/Personalised.svg";
 import sustainable from "../../assets/Sustainable.svg";
 import delivery from "../../assets/Delivery.svg";
+import BG from "../../assets/WhyChooseBg.png";
 
 const FeatureCard = ({ icon, title }) => {
   return (
-    <div className={`p-6 text-center bg-[#FDF8F3]`}>
+    <div
+      className={`p-6 text-center bg-[#FDF8F3] bg-center bg-no-repeat`}
+      style={{
+        backgroundImage: `url(${BG})`,
+        backgroundColor: "rgba(89, 62, 42, 0.9)",
+        backgroundBlend: "overlay",
+      }}
+    >
       <div className="flex justify-center mb-2">{icon}</div>
       <h3 className="text-[14px] sm:text-lg font-bold">{title}</h3>
     </div>
