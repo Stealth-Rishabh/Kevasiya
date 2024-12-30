@@ -16,7 +16,7 @@ const LuxuryGifts = () => {
       {/* Hero Section */}
       <div className="bg-[#E6F6FF] rounded-none mb-8 sm:mb-16">
         <div className="flex flex-col md:flex-row items-center gap-8 p-6 md:p-12">
-          <div className="w-full md:w-[43%]">
+          <div className="w-full md:w-[43%] text-center sm:text-left">
             <div className="relative">
               <img
                 src={img1}
@@ -25,7 +25,7 @@ const LuxuryGifts = () => {
               />
             </div>
           </div>
-          <div className="w-full md:w-[57%] space-y-6 md:pr-8">
+          <div className="w-full md:w-[57%] text-center sm:text-left space-y-6 md:pr-8">
             <h2 className="text-2xl md:text-3xl font-semibold text-[#0080BC]">
               Baby Shower /Announcements
             </h2>

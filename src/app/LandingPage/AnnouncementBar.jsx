@@ -24,9 +24,9 @@ export default function AnnouncementBar() {
 
   return (
     <div className="relative bg-[#C4A484] px-4 py-2 text-white">
-      <div className="mx-auto flex max-w-7xl sm:px-3 flex-wrap items-center justify-between gap-2">
+      <div className="mx-auto flex max-w-7xl sm:px-3 flex-wrap items-center justify-center sm:justify-between gap-2">
         {/* Social Icons */}
-        <div className="flex items-center space-x-3 sm:space-x-4">
+        <div className="items-center hidden sm:flex space-x-3 sm:space-x-4">
           {socialLinks.map(({ icon: Icon, href, label }) => (
             <a
               key={label}
@@ -46,7 +46,7 @@ export default function AnnouncementBar() {
         </p>
 
         {/* Language Selector */}
-        <div className="relative">
+        <div className="relative hidden sm:block">
           <button
             onClick={() => setIsLanguageOpen(!isLanguageOpen)}
             className="flex items-center gap-2 rounded-md px-2 py-1 text-sm transition-colors hover:bg-white/10 focus:bg-white/10 focus:outline-none"

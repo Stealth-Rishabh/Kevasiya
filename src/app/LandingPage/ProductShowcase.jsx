@@ -40,22 +40,22 @@ export default function ProductShowcase() {
   const visibleThumbnails = IMAGES[0].thumbnails.slice(startIndex, startIndex + 3);
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 md:p-8">
+    <div className="min-h-screen py-14 flex items-center justify-center p-4 md:p-8">
       <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 sm:gap-0 items-center">
         {/* Left Content Section */}
         <div className="space-y-8">
-          <div className="space-y-4">
+          <div className="space-y-4 text-center sm:text-left">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-light leading-tight">
               Celebrate Life's
               <br />
               Special Moments with
-              <span className="block font-bold mt-3 text-[2.5em]">
+              <span className="block font-bold sm:mt-3 text-[2em] sm:text-[2.5em]">
                 Kevasiya
               </span>
             </h1>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-4 !mt-4 sm:!mt-6 text-center sm:text-left">
             <p className="text-xl text-gray-700 font-light">Exquisite Gifts.</p>
             <p className="text-xl text-gray-700 font-light">
               Impeccable Craftsmanship.
@@ -67,7 +67,7 @@ export default function ProductShowcase() {
         </div>
 
         {/* Right Image Carousel Section */}
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-4 mt-8 my-16 sm:mt-0 gap-6">
           {/* Main large square */}
           <div className="col-span-3 relative aspect-square bg-white shadow-lg overflow-hidden">
             <img

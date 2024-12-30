@@ -1,24 +1,25 @@
 import React, { useState } from "react";
 import ChevronLeft from "../../assets/ChevronLeft.svg";
 import ChevronRight from "../../assets/ChevronRight.svg";
+import img1 from "../../assets/12.png";
+import img2 from "../../assets/14.png"; 
+import img3 from "../../assets/13.png";
+
 
 const slides = [
   {
     id: 1,
-    image:
-      "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?auto=format&fit=crop&q=80",
+    image: img1,
     title: "Vintage Collections",
   },
   {
     id: 2,
-    image:
-      "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&q=80",
+    image: img2,
     title: "Exquisite Craftsmanship",
   },
   {
     id: 3,
-    image:
-      "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?auto=format&fit=crop&q=80",
+    image: img3,
     title: "Luxury Gifts",
   },
 ];
@@ -36,12 +37,12 @@ export default function GiftingTrends() {
 
   return (
     <section className="w-full max-w-7xl mx-auto px-4 py-12 md:py-20">
-      <h1 className="text-2xl md:text-4xl font-bold text-center mb-12">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">
         This Month's Featured Gifting Trends
       </h1>
 
       <div className="relative overflow-hidden">
-        <div className="relative w-full h-[300px] md:h-[500px]">
+        <div className="relative w-full h-[230px] sm:h-[300px] md:h-[400px]">
           {/* Slider container */}
           <div className="flex items-center justify-center gap-4 md:gap-8 absolute w-full h-full">
             {slides.map((slide, index) => {
@@ -57,7 +58,7 @@ export default function GiftingTrends() {
                     ${
                       position === 1
                         ? "z-20 scale-100 opacity-100"
-                        : "z-10 scale-75 opacity-50"
+                        : "z-10 scale-75"
                     }
                     ${position === 0 ? "-translate-x-1/2" : ""}
                     ${position === 2 ? "translate-x-1/2" : ""}
@@ -68,11 +69,11 @@ export default function GiftingTrends() {
                     <img
                       src={slide.image}
                       alt={slide.title}
-                      className="w-full h-full object-cover  shadow-xl"
+                      className="w-full h-full object-cover"
                     />
                     {position === 1 && (
-                      <div className="absolute inset-0 bg-black bg-opacity-30 rounded-lg">
-                        <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="absolute inset-0 rounded-lg">
+                        <div className="absolute bottom-10 left-0 right-0 flex items-center justify-center">
                           <h2 className="text-white text-2xl md:text-4xl font-semibold text-center px-4">
                             {slide.title}
                           </h2>
@@ -109,7 +110,7 @@ export default function GiftingTrends() {
               key={index}
               onClick={() => setCurrentSlide(index)}
               className={`w-2 h-2 rounded-full transition-all ${
-                currentSlide === index ? "bg-gray-800 w-4" : "bg-gray-300"
+                currentSlide === index ? "w-4" : ""
               }`}
               aria-label={`Go to slide ${index + 1}`}
             />

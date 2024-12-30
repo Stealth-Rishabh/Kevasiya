@@ -28,7 +28,7 @@ export default function HeroSection() {
 
         {/* CTA Button */}
         <button
-          className="group relative overflow-hidden rounded-full bg-[#BEA88A] px-12 animate-bounce py-3 sm:pb-4 text-white transition-all duration-300 ease-out hover:scale-105 hover:bg-[#d7bf9d] focus:outline-none focus:ring-2 focus:ring-[#D4C4A8] focus:ring-offset-2 text-xl sm:text-3xl font-bold"
+          className="group relative overflow-hidden rounded-full bg-[#BEA88A] px-12 animate-bounce py-3 sm:pb-4 text-white transition-all duration-300 ease-out hover:scale-105 hover:bg-[#d7bf9d] focus:outline-none focus:ring-2 focus:ring-[#D4C4A8] focus:ring-offset-2 text-2xl sm:text-3xl font-bold"
           onClick={() => console.log("Buy Now clicked")}
         >
           Buy Now

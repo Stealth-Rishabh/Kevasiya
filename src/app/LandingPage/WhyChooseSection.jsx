@@ -8,19 +8,19 @@ const FeatureCard = ({ icon, title }) => {
   return (
     <div className={`p-6 text-center bg-[#FDF8F3]`}>
       <div className="flex justify-center mb-2">{icon}</div>
-      <h3 className="text-lg font-bold">{title}</h3>
+      <h3 className="text-[14px] sm:text-lg font-bold">{title}</h3>
     </div>
   );
 };
 
 export default function WhyChooseSection() {
   return (
-    <section className="pb-16 px-4 max-w-7xl mx-auto">
+    <section className="pb-6 px-4 max-w-7xl mx-auto">
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16">
         Why Choose Kevasiya?
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
         <FeatureCard
           icon={
             <img

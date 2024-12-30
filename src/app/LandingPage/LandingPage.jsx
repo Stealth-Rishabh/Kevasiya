@@ -5,6 +5,8 @@ import WelcomeSection from "./WelcomeSection";
 import LuxuryGifts from "./LuxuryGifts";
 import WhyChooseSection from "./WhyChooseSection";
 import GiftingTrends from "./GiftingTrends";
+import Designers from "./Designers";
+import ProductGrid from "./ProductGrid";
 
 const LandingPage = () => {
   return (
@@ -15,6 +17,8 @@ const LandingPage = () => {
       <LuxuryGifts />
       <WhyChooseSection />
       <GiftingTrends />
+      <Designers />
+      <ProductGrid />
     </>
   );
 };
