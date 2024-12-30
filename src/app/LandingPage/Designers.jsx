@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Designers() {
   return (
-    <div className="min-h-screen bg-white flex items-center justify-center px-4">
+    <div className="bg-white flex items-center justify-center px-4 pb-12 pt-5 md:pb-20 md:pt-7">
       <div className="max-w-5xl mx-auto w-full">
         <div className="grid md:grid-cols-2 gap-12 justify-center sm:justify-normal text-center sm:text-left items-center">
           {/* Image Section */}

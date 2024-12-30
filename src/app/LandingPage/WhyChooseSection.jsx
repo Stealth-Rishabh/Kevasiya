@@ -16,7 +16,7 @@ const FeatureCard = ({ icon, title }) => {
 export default function WhyChooseSection() {
   return (
     <section className="pb-6 px-4 max-w-7xl mx-auto">
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-10 sm:mb-16">
         Why Choose Kevasiya?
       </h2>
 

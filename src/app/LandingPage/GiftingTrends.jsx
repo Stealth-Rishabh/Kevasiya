@@ -36,7 +36,7 @@ export default function GiftingTrends() {
   };
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 py-12 md:py-20">
+    <section className="w-full max-w-7xl mx-auto px-4 pt-12 md:pt-20">
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">
         This Month's Featured Gifting Trends
       </h2>
